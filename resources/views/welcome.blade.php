@@ -13,8 +13,10 @@
 
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        @livewire('clicker') {{-- Blade style --}}
+        {{-- @livewire('clicker') Blade style --}}
 
         {{-- <livewire:clicker /> Tag style --}}
+
+        @livewire('form-clicker')
     </body>
 </html>
